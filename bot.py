@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 from downloader import download_video, download_audio
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8612057206:AAFmZaXijTtP5eSbOiZy-YiowwgFCjhW_a4")
 
 url_pattern = re.compile(r'https?://\S+')
 
